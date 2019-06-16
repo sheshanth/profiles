@@ -15,7 +15,6 @@ public class ProfileService {
 	
 	@GetMapping(value = "/")
 	public MessageConfiguration getMessage() {
-		System.out.println(process.env);
 		return new MessageConfiguration(messageConfiguration.getMessage());
 	}
 	
