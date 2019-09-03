@@ -18,4 +18,9 @@ public class ProfileService {
 		return new MessageConfiguration(messageConfiguration.getMessage());
 	}
 	
+	@GetMappping(value = "/hello")
+	public String HelloWorld() {
+		return "Hello!, World."
+	}
+	
 }
