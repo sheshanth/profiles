@@ -20,7 +20,7 @@ public class ProfileService {
 	
 	@GetMappping(value = "/hello")
 	public String HelloWorld() {
-		return "Hello!, World."
+		return "Hello!, World.";
 	}
 	
 }
